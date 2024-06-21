@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* contents should come inside the browser broder */
+    /* box-sizing: border-box; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#main{
+    background-image: url(https://images.herzindagi.info/image/2022/Jun/travel-items-for-women.jpg);
+    object-fit: cover;
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    
+}
+
+.main-contents{
+    margin: 10% 10% 10% 70%;
+    font-size: 50px;
+    color: white;
+}
+.btnn{
+    margin: 5% 45% 5% 45%;
+    /* background-color: rgba(4, 82, 4, 0.774); */
+}
+
+.intro-heading{
+    font-family: "Playwrite AU QLD", cursive;
+    font-size: 3rem;
+    
+}
+
+.intro-heading1{
+    font-family: "Love Light", cursive;
+    font-size: 4rem;
+}
+/* .container-fluid .packages{
+    height: 500px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    object-fit: cover;
+
+} */
+ /* #honeymoon{
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+ } */
+
+ .flex-container{
+    width: 100%;
+    height:auto;
+    /* border: solid;     */
+    display: flex;
+
+
+    justify-content: space-evenly;
+
+
+    align-items: center;
+
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+}
+.flex-items{
+    width: 350px;
+    box-shadow: 1px 1px 1px white;
+    border-radius: 2%;
+
+    height: auto;
+    /* background-color: palevioletred; */ 
+    /* border: solid 1px; */
+    padding: 2px 2px;
+    
+}
+.images{
+    height: 250px;
+    width: 100%;
+    border-radius: 2%;
+}
+
+.flex-items:hover{
+    box-shadow: 4px 8px 16px;
+    transition: 1s;
+}
+p{
+    font-size: 15px;
+}
+
+.btn{
+    margin: 10% 35% ;
+    background-color: rgb(94, 94, 190);
+}
+
+.package-head{
+    text-align: center;
+    font-family: 'Purple Purse';
+    color: rgb(21, 2, 21);
+    margin: 2%;
+}
+/* not possible to make changes in bootstrap classes , so commented carousal */
+/* .carousal{
+    height: 300px;
+    background-color: aquamarine;
+} */
+
+.content{
+    margin-top: 2.5%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    /* background-color: aqua; */
+}
+.image{
+    width: 100%;
+    height: 450px;
+    /* margin-left: .5%; */
+    /* margin-top: 2px; */
+}
+.video{
+    width: 100%;
+    height: 450px;
+    /* margin-right: .5%; */
+    /* margin-top: 2px; */
+
+}
+.card:hover{
+    box-shadow: 4px 8px 16px;
+    transition: .2s;
+
+}
+.feature-head{
+    text-align: center;
+    font-family: 'Purple Purse';
+    color: rgb(21, 2, 21);
+    margin: 2%;
+}
+.feature-para{
+    text-align: center;
+    font-family: 'Love Light';
+    color: red;
+    font-size: 30px;
+    margin: 2%;
+    margin-top: 2%;
+}
+.customer-head{
+    font-family: 'Purple Purse';
+    text-align: center;
+    color: chocolate;
+    font-size: 30px;
+}
+
+.review{
+    padding: 40px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+
+}
+
+.customer{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border{
+    width: 160px;
+    height: 5px;
+    background-color: chocolate;
+    margin: 26px auto;
+
+}
+
+.row-review{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.col-review{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+
+}
+
+.review{
+    background: #fff;
+    padding: 30px;
+}
+.review img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.name{
+
+    /* font-size: 20px; */
+    /* text-transform: uppercase; */
+    margin: 20px 0;
+    /* margin-top: 2%; */
+    font-family: 'Purple Purse';
+    color: #120902b5;
+    font-size: 20px;
+}
+
+.stars{
+    color: #1c5603d6;
+}
+
+.reviews{
+    font-family: 'Purple Purse';
+    /* font-size: 20px; */
+    color: #562603b5;
+}
+
+footer {
+    background-color: #001f3f; /* Dark blue background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-container > div {
+    flex: 1;  /* same width*/
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-about, .footer-social, .footer-logo {
+    padding: 10px;
+}
+
+.footer-about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-about ul li {
+    margin: 5px 0;
+}
+
+.footer-about ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-about ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-social .social-icons a {
+    margin: 3px 10px;
+    display: inline-block;
+}
+
+.footer-social .social-icons i {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-logo img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    background-color: #001533; /* Darker blue for bottom section */
+}
+
+.fa-brands{
+    font-size: 20px;
+    color: white;
+}
+.fa-brands:hover{
+    font-size: 20px;
+    color: rgb(30, 184, 218);
+}
+
+
+
+
+@media (max-width:960px) {
+    .col-review{
+        flex:100%;
+        max-width: 80%;
+
+    }
+    
+}
+
+@media (max-width:600px) {
+    .col-review{
+        flex:100%;
+        max-width: 100%;
+        
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+
